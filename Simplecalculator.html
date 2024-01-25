@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/JavaScript/Simplecalculator.css">
+    <script src="/JavaScript/Simplecalculator.js"></script>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <table border="2" align="center" cellpadding="25px" cellspacing="0px">
+       <tr>
+        <td colspan="4"><input type="text" id="inp"></td>
+       </tr>
+       <tr>
+        <td><input type="button" value="*" onclick="calculation1('*')"></td>
+        <td><input type="button" value="+" onclick="calculation1('+')"></td>
+        <td><input type="button" value="-" onclick="calculation1('-')"></td>
+        <td><input type="button" value="/" onclick="calculation1('/')"></td>
+       </tr>
+       <tr>
+        <td><input type="button" value="9" onclick="calculation1('9')"></td>
+        <td><input type="button" value="8" onclick="calculation1('8')"></td>
+        <td><input type="button" value="7" onclick="calculation1('7')"></td>
+        <td rowspan="3"><input type="button" value="=" id="equal" onclick="evaluation()"></td>
+       </tr>
+       <tr>
+        <td><input type="button" value="6" onclick="calculation1('6')"></td>
+        <td><input type="button" value="5" onclick="calculation1('5')"></td>
+        <td><input type="button" value="4" onclick="calculation1('4')"></td>
+       </tr>
+       <tr>
+        <td><input type="button" value="3" onclick="calculation1('3')"></td>
+        <td><input type="button" value="2" onclick="calculation1('2')"></td>
+        <td><input type="button" value="1" onclick="calculation1('1')"></td>
+       </tr>
+       <tr>
+        <td><input type="button" value="0" onclick="calculation1('0')"></td>
+        <td><input type="button" value="." onclick="calculation1('.')"></td>
+        <td><input type="button" value="del" onclick="delete1()"></td>
+        <td><input type="button" value="AC" onclick="allclear()"></td>
+       </tr>
+    </table>
+
+
+    
+</body>
+</html>
